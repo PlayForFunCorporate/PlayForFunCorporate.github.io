@@ -1,9 +1,0 @@
-#illustration{
-    display:flex;
-    align-items:center;
-    justify-content:center;
-}
-
-#illustration>img{
-    width:70vw;
-}

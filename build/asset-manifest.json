@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e0371ae.css",
+    "main.js": "/static/js/main.3971abeb.js",
+    "static/media/PFFLand.png": "/static/media/PFFLand.4c3df314d357af2c615e.png",
+    "static/media/BC Alphapipe L Regular.ttf": "/static/media/BC Alphapipe L Regular.9a115feeba2d05e5093b.ttf",
+    "static/media/BC Alphapipe RB Bold.ttf": "/static/media/BC Alphapipe RB Bold.0e5457b6f8e31385209f.ttf",
+    "static/media/hangman.jpg": "/static/media/hangman.8a2f5fa5be4b2efc72fb.jpg",
+    "static/media/controller.png": "/static/media/controller.0109be413c5b2bf8da5a.png",
+    "static/media/settings.png": "/static/media/settings.6bd8083a9d76a9fa4531.png",
+    "static/media/profile.png": "/static/media/profile.99ae0e9c59df1bd10d60.png",
+    "static/media/stats.png": "/static/media/stats.0c6dbfb467058895071b.png",
+    "static/media/tetris.jpg": "/static/media/tetris.58b459f0020626f5f807.jpg",
+    "static/media/snake.jpg": "/static/media/snake.fa13bffccb990fbddf18.jpg",
+    "static/media/profileBtn.png": "/static/media/profileBtn.87768712d93f549d231f.png",
+    "index.html": "/index.html",
+    "main.9e0371ae.css.map": "/static/css/main.9e0371ae.css.map",
+    "main.3971abeb.js.map": "/static/js/main.3971abeb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e0371ae.css",
+    "static/js/main.3971abeb.js"
+  ]
+}
