@@ -1,0 +1,151 @@
+header{
+    width:100vw;
+    height:75px;
+    background-color:var(--lighterpurple);
+    border-radius:0 0 2em 2em;
+    color:white;
+    font-family:BC Alphapipe Bold;
+    display:flex;
+    align-items:center;
+    position:fixed;
+    z-index:9999;
+}
+#menu{
+    width:50px;
+    height:50px;
+    float:left;
+    background:url(img/settings.png);
+    background-size:contain;
+    margin-left:50px;
+}
+
+#profile{
+    width:50px;
+    height:50px;
+    float:right;
+    background:url(img/profileBtn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right:50px;
+    cursor:pointer;
+    z-index:1;
+}
+
+/*****************************PROFILEPOPUP************************************/
+#profilePopup{
+    cursor:default;
+    background-color:white;
+    width:300px;
+    height:200px;
+    position:absolute;
+    transform: translate(-251px,49px);
+    border-radius:2em;
+    display:none;
+    opacity:1;
+    transition-duration: 300ms;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    font-family:BC Alphapipe;
+}
+
+#popupShape1{
+    width: 90px;
+    height: 40px;   
+    top: 25px;
+    right: 95px;
+    position:fixed;
+    background-color: var(--lighterpurple);
+    border-radius: 0 0 3em 0;
+    -webkit-box-shadow: 42px 0px 0px 0px #FFF; 
+    box-shadow: 42px 0px 0px 0px #FFF;
+}
+
+#popupShape2{
+    width: 30px;
+    height: 51px;   
+    top: 40px;
+    right: 51px;
+    position:fixed;
+    background-color: white;
+    transition-duration: 500ms;
+}
+
+.profileButton,.gameStats{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:left;
+    width:75%;
+    margin-bottom:5px;
+}
+
+.profileButton>img,.gameStats>img{
+    width:30px;
+    height:30px;
+}
+
+.profileButton:hover,.gameStats:hover{
+    cursor:pointer;
+}
+
+#profilePopup>h2{
+    color:var(--black);
+    font-family: BC Alphapipe Bold;
+}
+
+#profilePopup>div{
+    margin-bottom:10px;
+}
+
+#profilePopup>div>p{
+    font-size:16px;
+    text-align:left;
+    color:var(--gray);
+    width:100%;
+    margin:0 0 0 10px !important;
+}
+#profilePopup>div>p>a{
+    text-decoration:none;
+    color:var(--gray);
+}
+
+#profilePopup>a{
+    text-decoration:none !important;
+    font-size:18px !important;
+    margin-bottom:20px;
+    line-height:normal !important;
+    height:fit-content;
+}
+
+.disconnect{
+    width:fit-content;
+    height: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius:2em;
+    background:rgba(111, 136, 239, 0.5);
+    color:var(--gray);
+    font-weight:bold;
+    cursor:pointer;
+    margin-bottom:20px;
+    text-decoration: none;
+}
+
+.disconnect:visited{
+    color:var(--gray);
+}
+
+#header_title{
+    width: 90%;
+    text-align:center;
+    font-weight: bold;
+    font-size:2em;
+}
+
+#header_title>a{
+    text-decoration:none !important;
+    color:white !important;
+    font-size:32px !important;
+    font-family:BC Alphapipe Bold !important;
+    font-weight:700;
+}

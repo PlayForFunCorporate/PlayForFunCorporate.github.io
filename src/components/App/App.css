@@ -1,0 +1,23 @@
+@import url(../../style/common.css);
+@font-face {
+    font-family: BC Alphapipe;
+    src: url(../../style/fonts/BC\ Alphapipe\ L\ Regular.ttf);
+}
+@font-face {
+    font-family: BC Alphapipe Bold;
+    src: url(../../style/fonts/BC\ Alphapipe\ RB\ Bold.ttf);
+}
+
+html, body { height: 100%;   width: 100%; margin: 0; padding: 0; }
+body{
+    margin:0;
+    font-family:BC Alphapipe;
+}
+
+#pff_illustration{ 
+    height:100vh;
+    background-color:var(--purple);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,51 @@
+@import url(../../style/common.css);
+@font-face {
+    font-family: BC Alphapipe;
+    src: url(../../style/fonts/BC\ Alphapipe\ L\ Regular.ttf);
+}
+@font-face {
+    font-family: BC Alphapipe Bold;
+    src: url(../../style/fonts/BC\ Alphapipe\ RB\ Bold.ttf);
+}
+html, body { height: 100%;   width: 100%; margin: 0; padding: 0; }
+body{
+    margin:0;
+    font-family:BC Alphapipe;
+    background-color:var(--purple);
+}
+p{
+    color:black;
+    font-size:24px;
+    font-weight:bold;
+}
+#settings_grid>div>label{
+    display:block;
+    margin-bottom:5px;
+    margin-left:15px;
+    color:black;
+    text-align:left;
+
+}
+input{
+    padding:10px;
+}
+input:focus{
+    outline:none;
+    box-shadow: 8px -6px 20px 3px rgba(111, 136, 239, 0.6);
+}
+#account_settings{
+    height:fit-content;
+    width:fit-content;
+    background-color:white;
+    box-shadow: 8px -6px 20px 3px rgba(255, 255, 255, 0.8);
+    border-radius:2em;
+    padding:30px;
+}
+
+#settings_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
