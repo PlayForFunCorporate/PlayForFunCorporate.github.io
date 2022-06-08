@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8b0aa90e.css",
-    "main.js": "/static/js/main.53dfc51f.js",
+    "main.css": "/static/css/main.621f7e58.css",
+    "main.js": "/static/js/main.34ed5a10.js",
     "static/media/PFFLand.png": "/static/media/PFFLand.4c3df314d357af2c615e.png",
     "static/media/BC Alphapipe L Regular.ttf": "/static/media/BC Alphapipe L Regular.9a115feeba2d05e5093b.ttf",
     "static/media/BC Alphapipe RB Bold.ttf": "/static/media/BC Alphapipe RB Bold.0e5457b6f8e31385209f.ttf",
@@ -14,11 +14,11 @@
     "static/media/snake.jpg": "/static/media/snake.fa13bffccb990fbddf18.jpg",
     "static/media/profileBtn.png": "/static/media/profileBtn.87768712d93f549d231f.png",
     "index.html": "/index.html",
-    "main.8b0aa90e.css.map": "/static/css/main.8b0aa90e.css.map",
-    "main.53dfc51f.js.map": "/static/js/main.53dfc51f.js.map"
+    "main.621f7e58.css.map": "/static/css/main.621f7e58.css.map",
+    "main.34ed5a10.js.map": "/static/js/main.34ed5a10.js.map"
   },
   "entrypoints": [
-    "static/css/main.8b0aa90e.css",
-    "static/js/main.53dfc51f.js"
+    "static/css/main.621f7e58.css",
+    "static/js/main.34ed5a10.js"
   ]
 }
